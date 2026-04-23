@@ -1,11 +1,12 @@
 {
-  "name": "ST curl",
+  "display_name": "curl",
+  "loading_order": 800,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "",
   "version": "1.0.0",
-  "description": "Adds a /curl slash command to call an HTTP endpoint and ignore the response.",
-  "author": "adventure",
-  "license": "MIT",
-  "main": "index.js",
-  "compatibility": {
-    "sillytavern": ">=0.2.0"
-  }
+  "author": "ogxing",
+  "homePage": "https://github.com/ogxing/st-curl",
+  "auto_update": true
 }
